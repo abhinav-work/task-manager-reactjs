@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.table-list {
+  display: table;
+  /* width: 800px */
+}
+.nav-link {
+  text-decoration: none;
+  padding: 0%;
+}
+
+.low-priority-button {
+  background-color: rgb(96, 96, 179) !important;
+}
+.low-priority-button.active {
+  background-color: blue !important;
+}
+
+.mid-priority-button {
+  background-color: rgb(250, 231, 62) !important;
+}
+.mid-priority-button.active {
+  background-color: rgb(221, 182, 9) !important;
+}
+
+.high-priority-button {
+  background-color: rgb(238, 53, 53) !important;
+}
+.high-priority-button.active {
+  background-color: rgb(209, 9, 9) !important;
+}
+.spinner-style {
+  flex: 1;
+  margin-top: 240;
+  justify-content: 'center';
+  align-items:'center';
+}
+
+/* .customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+} */
+
+ /* @media (max-width: 900px) {
+  .picker-input__text {
+    width: 250px;
+  }
+} */
